@@ -10,6 +10,11 @@ public class Wystapienia {
         this.liczba = liczba;
     }
 
+    public Wystapienia(int liczba, int wystapienie) {
+        this.liczba = liczba;
+        this.wystapienie = wystapienie;
+    }
+
     public int getWystapienie() {
         return wystapienie;
     }
@@ -20,5 +25,11 @@ public class Wystapienia {
 
 
     public Wystapienia() {
+    }
+
+    @Override
+    public String toString(){
+
+        return this.liczba+" – liczba wystąpień: "+ this.wystapienie;
     }
 }
