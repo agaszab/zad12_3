@@ -15,7 +15,7 @@ public class Program {
         while (scan.hasNextInt()) {
             int liczba = scan.nextInt();
             liczby.add(liczba);
-            System.out.println(liczba);
+                                                                 //  wypisanie kontrolne wszystkich liczb z pliku  System.out.println(liczba);
         }
 
         int k = 0;
